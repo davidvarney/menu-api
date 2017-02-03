@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :order_item_extras, except: [:new, :edit]
   resources :order_items, except: [:new, :edit]
   resources :items, except: [:new, :edit]
   resources :extras, except: [:new, :edit]

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  extra_id: 
+  order_item_id: 
+  quantity: 1
+
+two:
+  extra_id: 
+  order_item_id: 
+  quantity: 1
