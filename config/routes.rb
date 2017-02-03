@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   resources :sizes, except: [:new, :edit]
-  resources :extras, except: [:new, :edit]
   resources :item_types, except: [:new, :edit]
   resources :orders, except: [:new, :edit]
   # The priority is based upon order of creation: first created -> highest priority.
