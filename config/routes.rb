@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :extras, except: [:new, :edit]
   resources :sizes, except: [:new, :edit]
   resources :item_types, except: [:new, :edit]
   resources :orders, except: [:new, :edit]
