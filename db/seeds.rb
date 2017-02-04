@@ -64,7 +64,7 @@ combo_item_type = ItemType.find_by name: 'Combos'
 
 # item_type_id, name, has_size, price, description
 items_array = [
-  [sandwich_item_type.id, "Gyro", false, 3.00, "A single Gyro sandwich"]
+  [sandwich_item_type.id, "Gyro", false, 3.00, "A single Gyro sandwich"],
   [sandwich_item_type.id, "Sub", false, 3.00, "A single Sub sandwich"],
   [sandwich_item_type.id, "Burger", false, 3.00, "A single Burger sandwich"],
   [sandwich_item_type.id, "Chicken", false, 3.00, "A single Chicken sandwich"],
@@ -79,7 +79,7 @@ items_array = [
   [combo_item_type.id, "1", true, 3.50, "Gyro, Side item, Small Beverage"],
   [combo_item_type.id, "2", true, 3.50, "Sub, Side item, Small Beverage"],
   [combo_item_type.id, "3", true, 3.50, "Burger, Side item, Small Beverage"],
-  [combo_item_type.id, "4", true, 3.50, "Chicken, Side item, Small Beverage"],
+  [combo_item_type.id, "4", true, 3.50, "Chicken, Side item, Small Beverage"]
 ]
 
 items_array.each do |item_type_id, name, has_size, price, description|
