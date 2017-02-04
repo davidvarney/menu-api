@@ -2,7 +2,7 @@ class CreateOrders < ActiveRecord::Migration
   def change
     create_table :orders do |t|
       t.string :name
-      t.boolean :completed, default: 0
+      t.boolean :completed, default: false
 
       t.timestamps null: false
     end
