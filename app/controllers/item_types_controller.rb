@@ -1,6 +1,14 @@
 class ItemTypesController < ApplicationController
   before_action :set_item_type, only: [:show, :update, :destroy]
 
+  # GET /item_types/1/items
+  # GET /item_types/1/items.json
+  def items
+    @items = ItemType.find(params[:id]).items
+
+    render json: @items
+  end
+
   # GET /item_types
   # GET /item_types.json
   def index
