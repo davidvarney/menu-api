@@ -1,11 +1,12 @@
 Rails.application.routes.draw do
   resources :order_item_extras, except: [:new, :edit]
-  resources :order_items, except: [:new, :edit]
+  resources :order_items
   resources :items, except: [:new, :edit]
   resources :extras, except: [:new, :edit]
   resources :sizes, except: [:new, :edit]
   resources :item_types, except: [:new, :edit]
-  resources :orders, except: [:new, :edit]
+  #resources :orders, except: [:new, :edit]
+  resources :orders
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
