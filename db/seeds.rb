@@ -18,7 +18,7 @@ item_types_array = [
   ["Breakfast", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/breakfast.jpg"]
 ]
 
-item_types_array.each do |name, thumbanil|
+item_types_array.each do |name, thumbnail|
   ItemType.create( name: name, thumbnail: thumbnail )
 end
 
@@ -103,5 +103,5 @@ items_array = [
 ]
 
 items_array.each do |item_type_id, name, has_size, price, description, quantity, index_image, thumbnail|
-  Item.create( item_type_id: item_type_id, name: name, has_size: has_size, price: price, description: description, quantity: quantity, thumbnail: thumbnail, index_image: index_image)
+  Item.create( item_type_id: item_type_id, name: name, has_size: has_size, price: price, description: description, quantity: quantity, index_image: index_image, thumbnail: thumbnail)
 end
