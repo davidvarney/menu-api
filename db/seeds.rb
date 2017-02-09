@@ -10,16 +10,16 @@
 # ItemType
 #
 item_types_array = [
-  ["Sandwiches", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/sandwiches.jpg"],
-  ["Sides", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/sides.jpg"],
-  ["Beverages", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/beverages.jpg"],
-  ["Combos", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/combo.jpg"],
-  ["Kids", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/kids.jpeg"],
-  ["Breakfast", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/breakfast.jpg"]
+  ["Sandwiches", "https://s3.us-east-2.amazonaws.com/react-menu/index_images/sandwiches.jpg", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/sandwiches.jpg"],
+  ["Sides", "https://s3.us-east-2.amazonaws.com/react-menu/index_images/sides.jpg", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/sides.jpg"],
+  ["Beverages", "https://s3.us-east-2.amazonaws.com/react-menu/index_images/beverages.jpg", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/beverages.jpg"],
+  ["Combos", "https://s3.us-east-2.amazonaws.com/react-menu/index_images/combo.jpg", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/combo.jpg"],
+  ["Kids", "https://s3.us-east-2.amazonaws.com/react-menu/index_images/kids.jpeg", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/kids.jpeg"],
+  ["Breakfast", "https://s3.us-east-2.amazonaws.com/react-menu/index_images/breakfast.jpg", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/breakfast.jpg"]
 ]
 
-item_types_array.each do |name, thumbnail|
-  ItemType.create( name: name, thumbnail: thumbnail )
+item_types_array.each do |name, index_image, thumbnail|
+  ItemType.create( name: name, index_image: index_image, thumbnail: thumbnail )
 end
 
 #
