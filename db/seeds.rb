@@ -19,7 +19,7 @@ item_types_array = [
 ]
 
 item_types_array.each do |name, thumbanil|
-  ItemType.create( name: name )
+  ItemType.create( name: name, thumbnail: thumbnail )
 end
 
 #
