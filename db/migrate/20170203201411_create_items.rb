@@ -8,7 +8,6 @@ class CreateItems < ActiveRecord::Migration
       t.text :description
       t.integer :quantity
       t.text :index_image, null: true
-      t.text :thumbnail, null: true
 
       t.timestamps null: false
     end
