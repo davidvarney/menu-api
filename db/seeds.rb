@@ -13,8 +13,8 @@ item_types_array = [
   ["Sandwiches", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/sandwiches.jpg"],
   ["Sides", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/sides.jpg"],
   ["Beverages", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/beverages.jpg"],
-  ["Combos", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/combos.jpg"],
-  ["Kids", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/kids.jpg"],
+  ["Combos", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/combo.jpg"],
+  ["Kids", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/kids.jpeg"],
   ["Breakfast", "https://s3.us-east-2.amazonaws.com/react-menu/thumbnails/breakfast.jpg"]
 ]
 
