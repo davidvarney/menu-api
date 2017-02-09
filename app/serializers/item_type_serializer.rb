@@ -1,5 +1,5 @@
 class ItemTypeSerializer < ActiveModel::Serializer
-  attributes :id, :name#, :items
+  attributes :id, :name, :thumbnail#, :items
 
   #def items
   #  object.items.map do |item|

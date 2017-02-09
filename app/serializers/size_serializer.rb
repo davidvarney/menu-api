@@ -1,3 +1,3 @@
 class SizeSerializer < ActiveModel::Serializer
-  attributes :id, :name, :price
+  attributes :id, :name, :base_price, :combo_price
 end

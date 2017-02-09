@@ -6,6 +6,9 @@ class CreateItems < ActiveRecord::Migration
       t.boolean :has_size
       t.decimal :price, precision: 6, scale: 2
       t.text :description
+      t.integer :quantity
+      t.text :index_image, null: true
+      t.text :thumbnail, null: true
 
       t.timestamps null: false
     end
